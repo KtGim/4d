@@ -23,14 +23,14 @@ const action = (param, config) => {
 }
 
 const buildByEnv = (rootPath, param) => {
-    const localConfigPath = `${rootPath}/best-cli.${param}.js`;
+    const localConfigPath = `${rootPath}/4d.${param}.js`;
     if(existsSync(localConfigPath)) {
         const localConfig = require(localConfigPath);
         // 合并 配置文件入口
         const config = webpackCommandsFun[param](rootPath, param, localConfig);
         action(param, config);
     } else {
-        chalkLog(`best-cli.${param}.js 文件不存在`, colors.red);
+        chalkLog(`4d.${param}.js 文件不存在`, colors.red);
         exit(0);
     }
 }

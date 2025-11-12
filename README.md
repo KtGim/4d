@@ -21,7 +21,7 @@
 ## 基础命令
 
     ```
-        Usage: @best/best-cli [options] [command]
+        Usage: 4d [options] [command]
 
         cli for best
 
