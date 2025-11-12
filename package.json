@@ -27,7 +27,7 @@
     "webpack-merge": "5.8.0"
   },
   "bin": {
-    "4d": "./src/index.js"
+    "4d": "src/index.js"
   },
   "scripts": {},
   "repository": {
