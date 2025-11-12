@@ -1,5 +1,5 @@
 {
-  "name": "@gim/4d",
+  "name": "4dcli",
   "version": "1.0.0",
   "description": "cli for best",
   "main": "src/index.js",
