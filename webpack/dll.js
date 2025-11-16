@@ -5,7 +5,6 @@ const { envTypes } = require('../helper/const/index');
 
 const dependencies3 = [
     'react-router-dom',
-    'wmstool',
     'react',
     'react-dom',
 ];
