@@ -1,4 +1,8 @@
-const collectTypes = require('./collectType');
+const collectTypes = {
+  pc: 'pc',
+  mini: 'mini',
+  mobile: 'mobile'
+}
 
 const proName = {
     type: 'input',
