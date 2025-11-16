@@ -2,8 +2,13 @@ const fs = require('fs');
 const { exit } = require('process');
 const { cloneRepo, getCurrentUser } = require('../git');
 const { chalkLog, colors } = require('../../helper/log/index');
-const { init, collectTypes } = require('../../questions/index');
+const init = require('../../questions/init');
 
+const collectTypes = {
+  pc: 'pc',
+  mini: 'mini',
+  mobile: 'mobile'
+}
 
 const initClone = async (param, currentPath) => {
   const { proName, proType } = await init(param);
